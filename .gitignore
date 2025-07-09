@@ -1,0 +1,58 @@
+# ========================
+# Unreal Engine 4 / 5 .gitignore
+# ========================
+
+# Binaries, intermediate build files, and temporary stuff
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vsconfig
+*.VC.db
+*.VC.opendb
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+
+# JetBrains IDEs
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.pdb
+*.obj
+*.log
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.tlog
+*.tmp
+
+# Unreal specific
+*.sln
+*.opensdf
+*.sdf
+*.suo
+*.sublime-workspace
+*.sublime-project
+*.xcodeproj
+*.xcworkspace
+*.sln.docstates
+
+# Git-specific
+.git/
+*.orig
+*.swp
+*.bak
+
+# Optional: compiled shaders
+Engine/DerivedDataCache/
