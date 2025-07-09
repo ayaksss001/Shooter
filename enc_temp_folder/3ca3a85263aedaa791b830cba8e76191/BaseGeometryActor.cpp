@@ -15,7 +15,7 @@ void ABaseGeometryActor::BeginPlay()
 {
 	Super::BeginPlay();
 	UE_LOG(LogBaseGeometry, Display, TEXT("From LogBaseGeometry"))
-		printTypes();
+	
 	
 }
 
