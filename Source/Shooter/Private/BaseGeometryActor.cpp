@@ -25,8 +25,8 @@ void ABaseGeometryActor::BeginPlay()
 	FString HealthStr = "Health : " + FString::SanitizeFloat(Health);
 	FString IsDeadStr = "Is dead : " + FString(IsDead ? "true" : "false");
 
-	FString Stats = FString::Printf(TEXT("\n ***All Stats***\n %s \n %s\n %s\n", *KillsStr, *HealthStr, *IsDeadStr));
-	UE_LOG(LogBaseGeomety, Warning, TEXT("%s"), *Stats);
+	FString Stats = FString::Printf(TEXT("\n ***All Stats***\n %s \n %s\n %s\n"), *KillsStr, *HealthStr, *IsDeadStr);
+	UE_LOG(LogBaseGeometry, Warning, TEXT("%s"), *Stats);
 
 	GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, Name);
 	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, Stats, true, FVector2D(1.5f, 1.5f));
